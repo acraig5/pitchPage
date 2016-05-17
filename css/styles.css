@@ -22,6 +22,8 @@ body{
     transition: all .8s;
 }
 
+/*ABOUT SECTION*/
+
 #about{
     background: #f2f2f2;
     width: 100%;
@@ -31,34 +33,73 @@ body{
     display: block;
     float: left;
     position: inherit;
+    padding-top: 120px;
+
 }
+
+#about-h1,
+#work-h1,
+#contact-h1{
+    text-align: center;
+}
+
+#about-text,
+#work-text,
+#contact-text{
+    padding-left:100px;
+    padding-right: 100px;
+}
+
+/*WORK CONTENT*/
 
 #work{
     background: #f2f2f2;
     width: 100%;
     padding: 10px;
     height: 300px;
-    margin-top: 650px;
+    margin-top: 370px;
     display: block;
     float: left;
     position: inherit;
+    padding-top: 120px;
 }
+
+/*CONTACT CONTENT*/
 
 #contact{
     background: #f2f2f2;
     width: 100%;
     padding: 10px;
-    height: 300px;
-    margin-top: 650px;
+    height: px;
+    margin-top: 350px;
     display: block;
     float: left;
     position: inherit;
+    
 }
+#form{
+    padding-left: 370px;
+}
+
+#nameForm,
+#replyto,
+#message{
+    display: inline-block;
+    float:left;
+}
+
 
 #home{
     background: #111a26;
     height: 100px;
     margin-top: 0;
+}
+
+#body-image{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
 }
 
 /* Color Palette */
@@ -91,11 +132,27 @@ body{
 
 /* Icons */
 
-.icon-1, .icon-2{
-    background-color: #111a26;
+
+#icons{
+
+    width: 100%;
+    padding: 10px;
+    height: 80px;
+    margin-top: -5px;
+    display: block;
+    float: left;
+    position: inherit;
 }
 
+#icons-content{
+    padding-left: 560px;
+}
 
+#fb:hover,
+#insta:hover{
+    color: #8c7b6c;
+    transition: all .8s;
+}
 /* Navigation */
 
 
@@ -182,4 +239,8 @@ h3{
 p{
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
+}
+
+li{
+    list-style: none;
 }
