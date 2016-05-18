@@ -3,7 +3,10 @@
 /***************/
 
 body{
-    background: #111a26;
+    background-image: url(https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/12960113_1026058087430074_1320350537_n.jpg?ig_cache_key=MTIyNTU0MjUyNTU0Mzg2OTkwOA%3D%3D.2);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
 }
 
 .persona1,
@@ -28,7 +31,7 @@ body{
     background: #f2f2f2;
     width: 100%;
     padding: 10px;
-    margin-top: -5px;
+    margin-top: 570px;
     display: block;
     float: left;
     position: inherit;
@@ -45,8 +48,8 @@ body{
 #about-text,
 #work-text,
 #contact-text{
-    padding-left:100px;
-    padding-right: 100px;
+    padding-left:190px;
+    padding-right: 190px;
 }
 
 /*WORK CONTENT*/
@@ -90,11 +93,12 @@ body{
 
 #home{
     background: #111a26;
-    height: 100px;
+    height: 130px;
     margin-top: 0;
 }
 
 #body-image{
+    position: inherit;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -111,7 +115,7 @@ body{
     height: 40px;
     z-index: 2;
     padding: 0;
-    margin-top: 300px;
+    margin-top: 400px;
     text-align: center
 }
 
